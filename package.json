@@ -1,0 +1,16 @@
+{
+  "name": "coralogix-test-task",
+  "version": "1.0.0",
+  "description": "Simple mouse move events logger",
+  "main": "",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./app"
+  },
+  "author": "Kostya Shyika",
+  "license": "ISC"
+}

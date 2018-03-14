@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Logger</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>Mousemove events logger</h1>
+
+      <div id="active-zone">
+        <span>Move mouse here to collect the events</span>
+      </div>
+
+      <div class="logger">
+
+        <div class="logger-container">
+          <h3>Unlogged data (<span id="unlogged-data-counter">0</span>)</h3>
+          <div id="unlogged-data" class="logs"></div>
+        </div>
+
+        <div class="logger-container">
+          <h3>Logged data (<span id="logged-data-counter">0</span>)</h3>
+          <div id="logged-data" class="logs"></div>
+        </div>
+
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

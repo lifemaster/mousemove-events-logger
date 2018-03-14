@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #eee;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.container > h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+#active-zone,
+#unlogged-data,
+#logged-data {
+  padding: 10px;
+  border: 1px solid #bbb;
+  background: #FFF;
+}
+
+#active-zone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  max-width: 800px;
+  width: 800px;
+  margin: 50px auto;
+}
+
+.logger {
+  display: flex;
+}
+
+.logger-container {
+  width: 50%;
+  height: 300px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logger-container h3 {
+  margin: 0;
+  padding: 5px 0;
+  border: 1px solid #bbb;
+  border-bottom: none;
+  background: bisque;
+  font-size: 14px;
+  text-align: center;
+}
+
+.logs {
+  height: 100%;
+  overflow: auto;
+}
+
+.logs p {
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+#unlogged-data p {
+  color: red;
+}
+
+#logged-data p {
+  color: green;
+}
